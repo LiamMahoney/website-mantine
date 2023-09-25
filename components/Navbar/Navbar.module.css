@@ -1,0 +1,52 @@
+.link {
+    display: block;
+    padding: var(--mantine-spacing-xs) var(--mantine-spacing-md);
+    border-radius: var(--mantine-radius-md);
+    font-weight: 500;
+
+    @mixin hover {
+        background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
+    }
+}
+
+.navContainer {
+    flex: 1;
+    justify-content: center;
+}
+
+.navLeft {
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.navCenter {
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.navRight {
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.mobileContainer {
+    flex: 1;
+    align-items: stretch;
+}
+
+.mobileLinkContainer{
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobileColorSchemeToggle {
+    margin-right: var(--mantine-spacing-md);
+    margin-bottom: var(--mantine-spacing-md);
+}
+
+.mobileContainer .mobileLinkContainer .link {
+    width: 100%;
+    text-align: center;
+    font-size: var(--mantine-font-size-xl);
+}
