@@ -13,7 +13,8 @@ export function Navbar({ children }: { children: any }) {
             header={{ height: 60 }}
             aside={{ width: 300, breakpoint: 'sm', collapsed: { desktop: true, mobile: !opened } }}
             padding="md"
-            transitionDuration={275} 
+            transitionDuration={275}
+            withBorder={false}
         >
             <AppShell.Header>
                 <Group h="100%" px="md">
