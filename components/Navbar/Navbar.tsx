@@ -28,7 +28,7 @@ export function Navbar({ children }: { children: any }) {
                         </Group>
                         <Group className={classes.navRight}>
                             <Group visibleFrom="sm">
-                                <ColorSchemeToggle />
+                                <ColorSchemeToggle size="md"/>
                             </Group>
                             <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="sm" />
                         </Group>
@@ -38,6 +38,7 @@ export function Navbar({ children }: { children: any }) {
 
             <AppShell.Aside py="md" px={4} >
                 <Stack className={classes.mobileContainer}>
+  
                     <Stack className={classes.mobileLinkContainer}>
                         {/* TODO: figure out what to do with mobile links. */}
                         <UnstyledButton className={classes.link}>Home</UnstyledButton>
@@ -46,7 +47,7 @@ export function Navbar({ children }: { children: any }) {
                     </Stack>
                     <Flex className={classes.mobileColorSchemeToggle} justify="flex-end" align="center">
                         {/* TODO: increase size on mobile */}
-                        <ColorSchemeToggle />
+                        <ColorSchemeToggle size="xl" />
                     </Flex>
                 </Stack>
 
