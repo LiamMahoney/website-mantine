@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useContext } from 'react';
-import { Switch, useMantineColorScheme } from '@mantine/core';
+import { Switch, useComputedColorScheme, useMantineColorScheme } from '@mantine/core';
 import { IconSunFilled, IconMoonFilled } from '@tabler/icons-react';
 import classes from './ColorSchemeToggle.module.css';
 import { HydrationContext } from '@/src/context/HydrationContext';
@@ -11,9 +11,10 @@ type Props = {
 }
 
 export function ColorSchemeToggle( { size }: Props) {
-    //TODO: use computedColorScheme - https://mantine.dev/theming/color-schemes/#use-computed-color-scheme-hook
-    const { toggleColorScheme, colorScheme} = useMantineColorScheme();
-    const [ checked, setChecked ] = useState(colorScheme === 'dark');
+    const { toggleColorScheme } = useMantineColorScheme();   
+    const computredColorScheme = useComputedColorScheme('dark');
+ 
+    const [ checked, setChecked ] = useState(computredColorScheme === 'dark');
     // fixes server - client hydration mismatch issue
     const hydrated = useContext(HydrationContext);
 
