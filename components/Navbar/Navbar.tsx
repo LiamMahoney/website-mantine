@@ -41,13 +41,11 @@ export function Navbar({ children }: { children: any }) {
                 <Stack className={classes.mobileContainer}>
   
                     <Stack className={classes.mobileLinkContainer}>
-                        {/* TODO: figure out what to do with mobile links. */}
                         <UnstyledButton className={classes.link}>Home</UnstyledButton>
                         <UnstyledButton className={classes.link}>Projects</UnstyledButton>
                         <UnstyledButton className={classes.link}>Blog</UnstyledButton>
                     </Stack>
                     <Flex className={classes.mobileColorSchemeToggle} justify="flex-end" align="center">
-                        {/* TODO: increase size on mobile */}
                         <ColorSchemeToggle size="xl" />
                     </Flex>
                 </Stack>
