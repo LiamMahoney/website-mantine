@@ -50,6 +50,7 @@ export function Navbar({ children }: { children: any }) {
                     </Flex>
                 </Stack>
 
+
             </AppShell.Aside>
 
             <AppShell.Main>
