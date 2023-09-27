@@ -1,6 +1,6 @@
 .link {
     display: block;
-    padding: var(--mantine-spacing-xs) var(--mantine-spacing-md);
+    padding: var(--mantine-spacing-xs) var(--mantine-spacing-md)!important;
     border-radius: var(--mantine-radius-md);
     font-weight: 500;
 
@@ -21,12 +21,12 @@
 
 .navCenter {
     flex-grow: 1;
-    justify-content: center;
+    justify-content: center!important;
 }
 
 .navRight {
     flex: 1;
-    justify-content: flex-end;
+    justify-content: flex-end!important;
 }
 
 .mobileContainer {
