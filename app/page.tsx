@@ -3,7 +3,7 @@ import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeTo
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: "Liam Mahoney",
+  title: "Home",
   description: "Liam Mahoney's Personal Website",
 };
 

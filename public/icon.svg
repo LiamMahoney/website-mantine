@@ -1,0 +1,130 @@
+<!-- <svg viewBox="0 0 30 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        path {
+            fill: #000;
+        }
+
+        stroke {
+            fill: #000;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            path {
+                fill: #fff;
+            }
+
+            stroke {
+                fill: #fff;
+            }
+        }
+    </style>
+    <path
+        d="M2.4 19L2.4 2.248L5.544 2.248L5.544 16.408L12.96 16.408V19L2.4 19ZM24.9026 11.248L25.0466 6.4H24.8306L21.5906 15.016L18.3506 6.4H18.1346L18.2786 11.248V19H15.5426L15.5426 2.248L19.2866 2.248L21.6146 8.416H21.7826L24.1346 2.248L27.6386 2.248L27.6386 19H24.9026V11.248Z" />
+</svg> -->
+
+
+<!-- <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        path {
+            fill: #000;
+        }
+
+        rect {
+            stroke: #000;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            path {
+                fill: #fff;
+            }
+
+            rect {
+                stroke: #fff;
+            }
+        }
+    </style>
+    <path
+        d="M2.4 23L2.4 6.248L5.544 6.248L5.544 20.408L12.96 20.408V23L2.4 23ZM24.9026 15.248L25.0466 10.4H24.8306L21.5906 19.016L18.3506 10.4H18.1346L18.2786 15.248V23H15.5426L15.5426 6.248L19.2866 6.248L21.6146 12.416H21.7826L24.1346 6.248L27.6386 6.248L27.6386 23H24.9026V15.248Z"
+    />
+    <rect 
+        x="0.375" 
+        y="0.375" 
+        width="29.25" 
+        height="29.25" 
+        stroke-width="0.75" 
+    />
+</svg> -->
+
+
+<!-- <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        path {
+            fill: #000;
+        }
+
+        rect {
+            stroke: #000;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            path {
+                fill: #fff;
+            }
+
+            rect {
+                stroke: #fff;
+            }
+        }
+    </style>
+<path d="M4.4 25L4.4 8.248L7.544 8.248L7.544 22.408L14.96 22.408V25L4.4 25ZM26.9026 17.248L27.0466 12.4H26.8306L23.5906 21.016L20.3506 12.4H20.1346L20.2786 17.248V25H17.5426L17.5426 8.248L21.2866 8.248L23.6146 14.416H23.7826L26.1346 8.248L29.6386 8.248L29.6386 25H26.9026V17.248Z" />
+<rect x="0.5" y="0.5" width="33" height="33" />
+</svg> -->
+
+
+<!-- <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        path {
+            fill: #000;
+        }
+
+        rect {
+            stroke: #000;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            path {
+                fill: #fff;
+            }
+
+            rect {
+                stroke: #fff;
+            }
+        }
+    </style>
+<path d="M4.4 25L4.4 8.248L7.544 8.248L7.544 22.408L14.96 22.408V25L4.4 25ZM26.9026 17.248L27.0466 12.4H26.8306L23.5906 21.016L20.3506 12.4H20.1346L20.2786 17.248V25H17.5426L17.5426 8.248L21.2866 8.248L23.6146 14.416H23.7826L26.1346 8.248L29.6386 8.248L29.6386 25H26.9026V17.248Z" />
+<rect x="1" y="1" width="32" height="32" stroke-width="2"/>
+</svg> -->
+
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        path {
+            fill: #000;
+        }
+
+        rect {
+            stroke: #000;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            path {
+                fill: #fff;
+            }
+
+            rect {
+                stroke: #fff;
+            }
+        }
+    </style>
+<path d="M5.4 26L5.4 9.248L8.544 9.248L8.544 23.408L15.96 23.408V26L5.4 26ZM27.9026 18.248L28.0466 13.4H27.8306L24.5906 22.016L21.3506 13.4H21.1346L21.2786 18.248V26H18.5426L18.5426 9.248L22.2866 9.248L24.6146 15.416H24.7826L27.1346 9.248L30.6386 9.248L30.6386 26H27.9026V18.248Z"/>
+<rect x="1" y="1" width="34" height="34" stroke-width="2"/>
+</svg>
