@@ -4,6 +4,7 @@ import { useDisclosure } from '@mantine/hooks';
 import { Button, AppShell, Group, Burger, UnstyledButton, Stack, Flex } from '@mantine/core';
 import classes from './Navbar.module.css';
 import { ColorSchemeToggle } from '../ColorSchemeToggle/ColorSchemeToggle';
+import Link from 'next/link';
 
 export function Navbar({ children }: { children: any }) {
     const [opened, { toggle }] = useDisclosure();
@@ -23,9 +24,34 @@ export function Navbar({ children }: { children: any }) {
                             
                         </Group>
                         <Group className={classes.navCenter} gap={0} visibleFrom="sm" >
-                            <UnstyledButton className={classes.link}>Home</UnstyledButton>
-                            <UnstyledButton className={classes.link}>Projects</UnstyledButton>
-                            <UnstyledButton className={classes.link}>Blog</UnstyledButton>
+                            <Link className={classes.navLinkButton} href="/">
+                                <Button 
+                                    // size="compact-sm" 
+                                    variant="subtle"
+                                    color="gray"
+                                    className={classes.link}
+                                >
+                                    Home
+                                </Button>
+                            </Link>
+                            <Link href="/projects">
+                                <Button 
+                                    // size="compact-sm"
+                                    variant="subtle" 
+                                    color="gray" 
+                                    className={classes.link}
+                                >
+                                    Projects
+                                </Button>
+                            </Link>
+                            <Button 
+                                // size="compact-sm"
+                                variant="subtle" 
+                                color="gray" 
+                                className={classes.link}
+                            >
+                                Blog
+                            </Button>
                         </Group>
                         <Group className={classes.navRight}>
                             <Group visibleFrom="sm">

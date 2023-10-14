@@ -1,0 +1,35 @@
+.projectContainer {
+    margin-top: 1.5rem;
+}
+
+.titleContainer {
+    margin-bottom: .1rem;
+}
+
+.unstyledLink {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.unstyledLink:hover {
+    color: inherit;
+}
+
+.unstyledLink h4:hover {
+    text-decoration: underline;
+}
+
+.titleIcon {
+    margin-left: .2rem;
+}
+
+.repoIcon {
+    height: var(--mantine-h3-font-size);
+    width: var(--mantine-h3-font-size);
+}
+
+.description {
+    margin-top: .3rem;
+}

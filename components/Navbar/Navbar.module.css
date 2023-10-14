@@ -1,4 +1,4 @@
-.link {
+/* .link {
     display: block;
     padding: var(--mantine-spacing-xs) var(--mantine-spacing-md)!important;
     border-radius: var(--mantine-radius-md);
@@ -7,8 +7,16 @@
     @mixin hover {
         background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
     }
-}
+} */
 
+.link {
+    color: var(--mantine-color-text);
+    font-weight: 500;
+}
+.navLinkButton {
+    /* color: inherit; */
+    text-decoration: none;
+}
 .navContainer {
     flex: 1;
     justify-content: center;

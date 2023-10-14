@@ -1,0 +1,23 @@
+[
+    {
+        "title": "keyring_configparser",
+        "description": "A ConfigParser subclass that can read values stored with the keyring pypi package. Used to store secrets within configuration files without needing to store them as plain-text.",
+        "tags": ["Python"],
+        "link": "https://pypi.org/project/keyring-configparser",
+        "repo": "https://github.com/LiamMahoney/keyring_configparser"
+    },
+    {
+        "title": "beersheets-draft-assistant",
+        "description": "A fantasy football draft assistant using beersheets rankings from the /r/fantasyfootball sub-reddit.",
+        "tags": ["React"],
+        "link": "https://beersheets.liammahoney.io",
+        "repo": "https://github.com/LiamMahoney/beersheets-draft-assistant"
+    },
+    {
+        "title": "mouse_movement",
+        "description": "A simple game where the objective is to 'catch' the box by getting your cursor over it. The faster the box is caught the better the score.",
+        "tags": ["JavaScript"],
+        "link": "#",
+        "repo": "https://github.com/LiamMahoney/mouse-movement"
+    }
+]
